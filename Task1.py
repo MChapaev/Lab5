@@ -24,4 +24,5 @@ def validate_ipv4(ip: str) -> str:
 
 # Main
 if __name__ == "__main__":
-    print("Hello world")
+    print(validate_ipv4("192.168.0.1"))
+    # print(validate_ipv4("1920.168.0.1")) # Will raise an error
